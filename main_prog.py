@@ -1,3 +1,4 @@
+# Абдельмаксуд Рэми (вариант 5)
 import os
 from time import sleep
 
@@ -85,6 +86,5 @@ def main():
         os.system("cls" if os.name == "nt" else "clear")  
 
 
-if name == 'main':
+if __name__ == '__main__':
     main()
-    
