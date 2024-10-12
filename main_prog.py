@@ -43,7 +43,7 @@ def draw_pattern_e(amount=PATTERN_REPEAT_AMOUNT):
 def draw_graph_modx():
     for i in range(HEIGHT_GRAPH, -1, -1):
         spaces = " " * i
-        stars = "*" * (HEIGHT_GRAPH - i+1)
+        stars = "*" * (HEIGHT_GRAPH - i)
         print(spaces + "*" + stars)
 
 
